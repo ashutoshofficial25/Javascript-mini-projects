@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.6rem;
+  background-color: #51daae;
+}
+.logo {
+  height: 4rem;
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  gap: 3.6rem;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e20c0cc9;
+}
+.home-section {
+  height: 100vh;
+
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 10rem;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.overlay {
+  position: absolute;
+  top: 5.6rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.hidden {
+  display: none;
+}

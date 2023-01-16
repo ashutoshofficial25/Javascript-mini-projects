@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <img src="Zomato_company_logo.png" alt="logo" class="logo" />
+        <ul class="nav-bar">
+          <li class="home"><a class="nav-link" href="#">Home</a></li>
+          <li class="about"><a class="nav-link" href="#">About</a></li>
+          <li class="explore"><a class="nav-link" href="#">Explore</a></li>
+          <li class="login"><a class="nav-link" href="#">Login</a></li>
+          <li class="signup"><a class="nav-link" href="#">SignUp</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home-section"></section>
+
+    <section class="login-page hidden">
+      <form class="form">
+        <p class="label">Email:</p>
+        <br />
+        <input type="email" name="email" id="email" class="email" /><br />
+        <p class="label">Password:</p>
+        <br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="password"
+        /><br />
+
+        <input type="submit" name="submit" id="submit" /><br />
+      </form>
+    </section>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
